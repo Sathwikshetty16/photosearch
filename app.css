@@ -1,0 +1,41 @@
+=.center {
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+form {
+  margin: 20px 0;
+  text-align: center; /* Center the form */
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #0074d9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.gallery {
+  display: flex; /* Display the cards side by side */
+  flex-wrap: wrap; /* Allow them to wrap to the next row */
+  justify-content: center; /* Center the cards horizontally */
+}
+
+.card {
+  margin: 20px; /* Add some spacing between cards */
+}
